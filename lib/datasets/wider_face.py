@@ -99,7 +99,7 @@ class wider_face(imdb):
         """
         Return the default path where PASCAL VOC is expected to be installed.
         """
-        return os.path.join(cfg.DATA_DIR, 'WIDER2015')
+        return os.path.join(cfg.DATA_DIR, 'WIDER')
 
     def gt_roidb(self):
         """
